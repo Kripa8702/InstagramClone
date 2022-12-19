@@ -63,6 +63,7 @@ class _CommentCardState extends State<CommentCard> {
             padding: EdgeInsets.all(8),
             child: IconButton(
               onPressed: () async {
+                print(widget.snap['likes']);
                 await FirestoreMethods().likeComment(widget.postId, user.uid,
                     widget.snap['commentId'], widget.snap['likes']);
               },

@@ -44,6 +44,7 @@ class AuthMethods {
             password: password.trim(),
             followers: [],
             following: [],
+            bio : bio.trim(),
             photoUrl: photoUrl);
 
         //Add to database
@@ -97,5 +98,9 @@ class AuthMethods {
     }
 
     return res;
+  }
+
+  Future<void> signOut() async{
+    await _auth.signOut();
   }
 }

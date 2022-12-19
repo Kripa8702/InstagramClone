@@ -8,6 +8,7 @@ class UserModel {
   final List followers;
   final List following;
   final String photoUrl;
+  final String bio;
 
   const UserModel({
     required this.email,
@@ -17,6 +18,7 @@ class UserModel {
     required this.followers,
     required this.following,
     required this.photoUrl,
+    required this.bio,
   });
 
   Map<String, dynamic> toJson() => {
@@ -27,6 +29,7 @@ class UserModel {
         'followers': [],
         'following': [],
         'photoUrl': photoUrl,
+        'bio': bio,
       };
 
   static UserModel fromSnap(DocumentSnapshot snap) {
@@ -39,6 +42,7 @@ class UserModel {
         password: snapshot['password'],
         followers: snapshot['followers'],
         following: snapshot['following'],
+        bio: snapshot['bio'],
         photoUrl: snapshot['photoUrl']);
   }
 }
