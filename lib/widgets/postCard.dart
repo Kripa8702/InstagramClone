@@ -209,17 +209,20 @@ class _PostCardState extends State<PostCard> {
                     ),
                   );
                 },
-                icon: Icon(
-                  Icons.chat_bubble_outline,
-                ),
+                icon: Image(
+                  image: AssetImage(
+                    'assets/chat.png',
+                  ),
+                  height: 3.h,
+                )
               ),
               IconButton(
                   onPressed: () {},
                   icon: Image(
                     image: AssetImage(
-                      'assets/send.png',
+                      'assets/dm.png',
                     ),
-                    height: 2.5.h,
+                    height: 2.7.h,
                   )),
               Expanded(
                 child: Align(

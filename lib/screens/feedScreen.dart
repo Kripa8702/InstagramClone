@@ -24,9 +24,9 @@ class FeedScreen extends StatelessWidget {
                 onPressed: () {},
                 icon: Image(
                   image: AssetImage(
-                    'assets/send.png',
+                    'assets/dm.png',
                   ),
-                  height: 3.h,
+                  height: 3.2.h,
                 ))
           ],
         ),
