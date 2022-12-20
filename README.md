@@ -1,7 +1,9 @@
 # Instagram Clone
 
-Instagram clone created using Flutter and Firebase.
+Instagram clone created using Flutter and Firebase, utilizing the Firebase Authentication, Firestore and Storage facilities.
 
-## Getting Started
+## App Screenshots
 
-<img src=https://github.com/Kripa8702/InstagramClone/blob/master/ss1.png width="100" height="300"> 
+<pre> 
+     <img src=https://github.com/Kripa8702/InstagramClone/blob/master/ss3.png height="400">      <img src=https://github.com/Kripa8702/InstagramClone/blob/master/ss4.png height="400">      <img src=https://github.com/Kripa8702/InstagramClone/blob/master/ss1.png height="400">       <img src=https://github.com/Kripa8702/InstagramClone/blob/master/ss2.png height="400"> 
+</pre>
